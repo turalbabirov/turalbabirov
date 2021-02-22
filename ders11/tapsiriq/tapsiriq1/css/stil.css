@@ -1,0 +1,225 @@
+/* Font-face */
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('FontAwesome5BrandsRegular.eot');
+    src: url('FontAwesome5BrandsRegular.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome5BrandsRegular.woff2') format('woff2'),
+        url('FontAwesome5BrandsRegular.woff') format('woff'),
+        url('FontAwesome5BrandsRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Font-family */
+.f-OpenSans {font-family: 'Open Sans', sans-serif; font-weight: 400;}
+.f-OpenSansLight {font-family: 'Open Sans', sans-serif; font-weight: 300;}
+.f-OpenSansLight-Italic {font-family: 'Open Sans', serif; font-weight: 300; font-style: italic;}
+.f-FontAwesome {font-family: 'Font Awesome'; font-weight: 400;}
+.f-Raleway {font-family: 'Raleway', sans-serif; font-weight: 400;}
+.f-Raleway-Heavy {font-family: 'Roboto', sans-serif; font-weight: 700;}
+
+
+/* Font-size */
+.f-106px {font-size: 106px !important;}
+.f-72px {font-size: 72px !important;}
+.f-70px {font-size: 70px !important;}
+.f-60px {font-size: 60px !important;}
+.f-44px {font-size: 44px !important;}
+.f-40px {font-size: 40px !important;}
+.f-38px {font-size: 38px !important;}
+.f-34px {font-size: 34px !important;}
+.f-32px {font-size: 32px !important;}
+.f-30px {font-size: 30px !important;}
+.f-28px {font-size: 28px !important;}
+.f-26px {font-size: 26px !important;}
+.f-23px {font-size: 23px !important;}
+.f-22px {font-size: 22px !important;}
+.f-20px {font-size: 20px !important;}
+.f-18px {font-size: 18px !important;}
+.f-15px {font-size: 15px !important;}
+.f-14px {font-size: 14px !important;}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+	.f-72px {
+		font-size: 40px !important;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.f-72px {
+		font-size: 50px !important;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.f-72px {
+		font-size: 60px !important;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+}
+
+
+/* Line height */
+.lh-30px {line-height: 30px !important;}
+
+
+/* Color */
+.text-ffd800 {color: #ffd800 !important;}
+.text-202020 {color: #202020 !important;}
+.text-f0f0f0 {color: #f0f0f0 !important;}
+.text-777777 {color: #777777 !important;}
+.text-494949 {color: #494949 !important;}
+.text-909090 {color: #909090 !important;}
+.text-000000 {color: #000000 !important;}
+.text-e5c200 {color: #e5c200 !important;}
+
+
+/* Button */
+.button-style {display: inline-block; border-color: #00e0d0 !important; color: #00e0d0 !important;}
+.button-style:hover {background-color: #00e0d0 !important; color: white !important;}
+.button-style:active {background-color: #00e0d0 !important; color: white !important;}
+.button-style:visited {background-color: #00e0d0 !important; color: white !important;}
+
+
+/* Social-button */
+.social {
+	width: 35px !important;
+	height: 35px !important;
+	}
+.social:hover {background-color: #00e0d0 !important; color: white !important;}
+
+
+/* Height */
+.h-inherit {height: inherit !important;}
+
+.h-700 {height: 800px !important;}
+.h-595 {height: 595px !important;}
+.h-580 {height: 580px !important;}
+.h-335 {height: 335px !important;}
+.h-325 {height: 325px !important;}
+.h-300 {height: 300px !important;}
+.h-280 {height: 280px !important;}
+.h-240 {height: 240px !important;}
+.h-210 {height: 210px !important;}
+.h-100 {height: 100px !important;}
+.h-85 {height: 85px !important;}
+.h-80 {height: 80px !important;}
+.h-40 {height: 40px !important;}
+
+
+/* Weight */
+.w-90 {width: 90%;}
+
+
+/* Vertical line */
+.v-line {
+	display: inline-block;
+	border: 1px solid #00e0d0 !important;
+	width: 6%;
+	margin: 0 auto;
+}
+
+/* Overlay */
+.overlay {
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	opacity: 0.85;
+	background: linear-gradient(45deg, rgba(9,5,47,1) 0%, rgba(49,29,94,1) 100%);
+}
+
+
+/* Background-color */
+.bg-transparent {background-color: transparent !important;}
+.bg-white-transparent {background-color: rgba(255, 255, 255, 0.5) !important;}
+.bg-202020 {background-color: #202020 !important;}
+.bg-171717 {background-color: #171717 !important;}
+.bg-e5c200 {background-color: #e5c200 !important;}
+.bg-ffd800 {background-color: #ffd800 !important;}
+.bg-f0f0f0 {background-color: #f0f0f0 !important;}
+
+
+/* Background-image */
+
+
+
+/* Border */
+.b-2px-fff {border: 2px solid #ffffff !important;}
+.by-1px-cacaca {border-right: 1px solid #cacaca; border-left: 1px solid #cacaca;}
+@media (max-width: 768px) {
+	.by-1px-cacaca { border: none !important; }
+}
+.bb-1px-cacaca {border-bottom: 1px solid #cacaca;}
+
+
+
+/* Border-color */
+.b-color-413d4b {border-color: #413d4b !important; opacity: 0.3 !important;}
+.b-color-79768C {border-color: #79768C !important;}
+
+
+/* Padding */
+.p-30 {padding: 30px;}
+.pt-70 {padding-top: 70px !important;}
+.pb-70 {padding-bottom: 70px !important;}
+
+
+/* Margin */
+.m-10 {margin: 10px;}
+.mt-m65 {margin-top: -65px !important;}
+.mt-m45 {margin-top: -45px !important;}
+.mb-70 {margin-bottom: 70px !important;}
+
+
+/* Letter-spacing */
+.lspacing-m11 {letter-spacing: -11px !important;}
+
+
+/* Word-spacing */
+.wspacing-2 {word-spacing: 2px !important;}
+
+/* ============================================================================================ */
+
+/* Form Background */
+.btn-black {
+	background: linear-gradient(to bottom, rgba(71,71,71,1) 0%, rgba(71,71,71,1) 3%, rgba(26,26,26,1) 11%, rgba(17,17,17,1) 92%, rgba(13,13,13,1) 96%, rgba(0,0,0,1) 100%);
+	border: 0;
+}
+.btn-yellow {
+	box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	border: 0;
+}
+.header form input::placeholder {
+	font-size: 18px;
+	color: #202020;
+}
+.box {
+	width: 100% !important;
+	height: 350px;
+}
+.box-sm {
+	width: 100px;
+	height: 100px;
+	background-color: #5B5B5B;
+}
+
+.faq-box-bg {
+	background: url('../img/icons/Q A copy.png') left top no-repeat;
+}
+
+.question, .answer {
+	z-index: -1;
+}

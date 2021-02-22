@@ -1,0 +1,176 @@
+
+/* Font-family */
+.f-Roboto-regular {font-family: 'Roboto', sans-serif; font-weight: 400;}
+.f-Roboto-thin {font-family: 'Roboto', sans-serif; font-weight: 100;}
+.f-Roboto-light {font-family: 'Roboto', sans-serif; font-weight: 300;}
+.f-Roboto-black {font-family: 'Roboto', sans-serif; font-weight: 900;}
+.f-Hammersmith-regular {font-family: 'Hammersmith One', sans-serif;}
+.f-Playfair-regular {font-family: 'Playfair Display', serif; font-weight: 400;}
+.f-Playfair-bold {font-family: 'Playfair Display', serif; font-weight: 700;}
+.f-Playfair-black {font-family: 'Playfair Display', serif; font-weight: 900;}
+
+
+/* Font-size */
+.f-45px {font-size: 45px;}
+.f-32px {font-size: 32px;}
+.f-30px {font-size: 30px;}
+.f-25px {font-size: 25px;}
+.f-22px {font-size: 22px;}
+.f-16px {font-size: 16px;}
+.f-15px {font-size: 15px;}
+.f-14px {font-size: 14px;}
+.f-13px {font-size: 13px;}
+
+
+/* Line height */
+.lh-30px {line-height: 30px;}
+
+
+/* Color */
+.text-00e0d0 {color: #00e0d0 !important;}
+.text-413d4b {color: #413d4b !important;}
+.text-2f2d35 {color: #2f2d35 !important;}
+.text-9F9F9F {color: #9F9F9F !important;}
+
+
+/* Button */
+.button-style {display: inline-block; border-color: #00e0d0 !important; color: #00e0d0 !important;}
+.button-style:hover {background-color: #00e0d0 !important; color: white !important;}
+.button-style:active {background-color: #00e0d0 !important; color: white !important;}
+.button-style:visited {background-color: #00e0d0 !important; color: white !important;}
+
+
+/* Social-button */
+.social {
+	width: 35px !important;
+	height: 35px !important;
+	}
+.social:hover {background-color: #00e0d0 !important; color: white !important;}
+
+
+/* Height */
+.h-inherit {height: inherit;}
+
+.h-800 {height: 800px;}
+.h-755 {height: 755px;}
+.h-670 {height: 670px;}
+.h-655 {height: 655px;}
+.h-550 {height: 550px;}
+.h-500 {height: 500px;}
+.h-400 {height: 400px;}
+.h-300 {height: 300px;}
+.h-250 {height: 250px;}
+.h-180 {height: 180px;}
+.h-155 {height: 155px;}
+.h-100px {height: 100px !important;}
+.h-75px {height: 75px !important;}
+
+
+/* Vertical line */
+.v-line {
+	display: inline-block;
+	border: 1px solid #00e0d0 !important;
+	width: 6%;
+	margin: 0 auto;
+}
+
+/* Overlay */
+.overlay {
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	opacity: 0.85;
+	background: linear-gradient(45deg, rgba(9,5,47,1) 0%, rgba(49,29,94,1) 100%);
+}
+
+
+/* Background-color */
+.bg-transparent {background-color: transparent;}
+.bg-white-transparent {background-color: rgba(255, 255, 255, 0.5);}
+
+
+/* Background-image */
+.header-bg {background: no-repeat center / cover url("../img/pictures/header.jpg")}
+.player-bg {background: no-repeat center / cover url("../img/pictures/player.jpg")}
+.team-bg {background: no-repeat center / cover url("../img/pictures/team.jpg")}
+.about-team-bg {background: no-repeat center / cover url("../img/pictures/about-team.jpg")}
+.footer-bg {background: no-repeat center / cover url("../img/pictures/footer.jpg")}
+.boxes-bg {background-image: url("../img/boxes.png");}
+.bg-fff {background-color: #FFF;}
+
+
+/* Logo title */
+.logo-title {
+	display: inline-block;
+	width: 73px;
+	height: 29px;
+	font-size: 0;
+	background: url("../img/logo-title.png") center center / 73px 29px;
+}
+
+
+/* Slidebox */
+.slidebox {
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+}
+.slidebox:first-child {
+	background-color: #00e0d0 !important;
+	border: 1px solid #00e0d0 !important;
+}
+
+.slidebox:not(:first-child):hover {
+	background-color: #00e0d0 !important;
+	border: 1px solid #00e0d0 !important;
+}
+
+
+/* Text-hover */
+.text-hover {color: #fff;}
+.text-hover:hover {color: #00e0d0 !important;}
+
+
+/* Play Button */
+.btn-play {
+	width: 100px;
+	height: 100px;
+	border: 3px solid #fff;
+}
+
+
+
+/* Border */
+.b-bottom-1px {border-bottom: 1px solid #dae0e5;}
+.b-right-1px {border-right: 1px solid #dae0e5;}
+.b-1px 
+
+
+/* Border-color */
+.b-color-413d4b {border-color: #413d4b !important; opacity: 0.3;}
+.b-color-79768C {border-color: #79768C !important;}
+
+
+/* Padding */
+.pt-70 {padding-top: 70px;}
+.pb-70 {padding-bottom: 70px;}
+
+
+/* Margin */
+.mt-70 {margin-top: 70px;}
+.mb-70 {margin-bottom: 70px;}
+
+
+/* Image */
+.img-responsive {
+	display: inline-block;
+}
+
+
+.img-50 {
+	width: 50px;
+	height: 50px;
+}

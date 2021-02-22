@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c51f20a-cdce-4e15-af94-e4a83986bce5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z446O3QCyEhUwUWIuBgwPqUhy4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c51f20a-cdce-4e15-af94-e4a83986bce5" name="Default Changelist" comment="" />
+      <created>1584084857117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584084857117</updated>
+      <workItem from="1584084868721" duration="4138000" />
+      <workItem from="1584163127115" duration="1010000" />
+      <workItem from="1584164297230" duration="1071000" />
+      <workItem from="1584175071636" duration="174000" />
+      <workItem from="1584175283249" duration="1843000" />
+      <workItem from="1584181174678" duration="1291000" />
+      <workItem from="1584183164908" duration="88000" />
+      <workItem from="1584183286982" duration="246000" />
+      <workItem from="1584183568857" duration="112000" />
+      <workItem from="1584183709721" duration="105000" />
+      <workItem from="1584183850818" duration="65000" />
+      <workItem from="1584183943445" duration="410000" />
+      <workItem from="1584184380543" duration="837000" />
+      <workItem from="1584185317239" duration="57000" />
+      <workItem from="1584185412907" duration="38000" />
+      <workItem from="1584185475854" duration="700000" />
+      <workItem from="1584187924312" duration="598000" />
+      <workItem from="1584188550545" duration="458000" />
+      <workItem from="1584189046636" duration="117000" />
+      <workItem from="1584189192027" duration="71000" />
+      <workItem from="1584189297872" duration="72000" />
+      <workItem from="1584189399119" duration="115000" />
+      <workItem from="1584189543677" duration="37000" />
+      <workItem from="1584189611716" duration="739000" />
+      <workItem from="1584190437612" duration="123000" />
+      <workItem from="1584190597528" duration="705000" />
+      <workItem from="1584194559289" duration="690000" />
+      <workItem from="1584195677551" duration="297000" />
+      <workItem from="1584196005584" duration="46000" />
+      <workItem from="1584196081198" duration="76000" />
+      <workItem from="1584196183956" duration="899000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="38" y="13" width="1328" height="715" key="SettingsEditor" timestamp="1584196297562">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="38" y="13" width="1328" height="715" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584196297562" />
+  </component>
+</project>

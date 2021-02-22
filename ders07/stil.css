@@ -1,0 +1,67 @@
+/*======== Shablon ===========*/
+.dflex {display: flex;}
+.justify-center {justify-content: center;}
+.justify-end {justify-content: flex-end;}
+.justify-around {justify-content: space-around;}
+.justify-between {justify-content: space-between;}
+.align-center{align-items: center;}
+.direction-row {flex-direction: row;}
+.direction-col {flex-direction: column;}
+.align-c-end {align-content: flex-end;}
+
+.w-75 {width: 75%;}
+.w-25 {width: 25%;}
+.h-inherit {height: inherit;}
+
+.m-0 {margin: 0;}
+
+.p-0 {padding: 0;}
+.pr-30px {padding-right: 30px;}
+.pb-10 {padding-bottom: 10px;}
+.p-5 {padding: 5px;}
+.p-10 {padding: 10px;}
+.p-20 {padding: 20px;}
+.py-50px {padding: 50px 0;}
+
+.duyme {
+	width: 60px;
+	height: 60px;
+	background-color: #C9C9C9;
+	color: #656565;
+	font-weight: bold;
+	font-size: 25px;
+}
+.emeliyyat {
+	color: #949494;
+	font-size: 20px;
+}
+
+/*======== Elemente Mudaxile ===========*/
+body {
+	background-color: #E0E0E0 !important;
+}
+	.container {
+		background-color: white;
+		width: 280px;
+		box-shadow: 0px 10px 15px gray;
+	}
+		.ust_div {
+			height: 80px;
+			background-color: #4E4E4E;
+			color: white;
+			font-family: monospace;
+		}
+		.alt_div {
+
+		}
+
+		.hesab_bg {
+			padding: 10px 0 0;
+		}
+			.ust_emeliyyat {
+				padding-bottom: 10px;
+			}
+
+		.ekran {
+			font-size: 50px;
+		}

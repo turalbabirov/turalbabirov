@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Android Password Screen</title>
+	<style type="text/css">
+		.d-flex {display: flex;}
+		.column {flex-direction: column;}
+		.jc-center {justify-content: center;}
+		.ai-center {align-items: center;}
+		.text-center {text-align: center;}
+		/*-----------------------*/
+		body {background-color: whitesmoke;}
+		.container {
+			width: 230px;
+			padding: 5px;
+		}
+		.duyme, .geri, .qebul {
+			padding: 20px 30px;
+			margin: 5px;
+			background-color: #000;
+			color: #fff;
+			cursor: pointer;
+		}
+		.screen input {
+			margin: 15px;
+			padding: 10px;
+		}
+		.geri {background-color: grey;}
+		.qebul {background-color: green;}
+	</style>
+</head>
+<body class="d-flex jc-center ai-center">
+	<div class="container">
+		<div class="screen d-flex column text-center">
+			<span>Enter password to unlock</span>
+			<input type="text">
+		</div>
+		<div class="duymeler">
+			<div class="col col1 d-flex">
+				<div class="duyme duyme1">1</div>
+				<div class="duyme duyme2">2</div>
+				<div class="duyme duyme3">3</div>
+			</div>
+			<div class="col col2 d-flex">
+				<div class="duyme duyme4">4</div>
+				<div class="duyme duyme5">5</div>
+				<div class="duyme duyme6">6</div>
+			</div>
+			<div class="col col3 d-flex">
+				<div class="duyme duyme7">7</div>
+				<div class="duyme duyme8">8</div>
+				<div class="duyme duyme9">9</div>
+			</div>
+			<div class="col col4 d-flex">
+				<div class="geri">&lt;</div>
+				<div class="duyme duyme0">0</div>
+				<div class="qebul">OK</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		const sifre = "12345";
+
+		const addEvent = (selector, event, func) => {
+			const elements = document.querySelectorAll(selector);
+			for (let i = 0; i < elements.length; i++) {
+				elements[i].addEventListener(event, func);
+			}
+
+			return elements;
+		}
+
+		// Reqemler yazilan yer
+		addEvent(".duyme", "click", e => {
+			document.querySelector("input").value += e.target.innerHTML;
+		})
+		
+		// Bir vahid sil
+		addEvent(".geri", "click", e => {
+			let ilkinDeyer = document.querySelector("input");
+			let netice = ilkinDeyer.value.substring(0, (ilkinDeyer.value.length - 1));
+			ilkinDeyer.value = netice;
+		})
+
+		// Kodu yoxla
+		addEvent(".qebul", "click", e => {
+			let girisKodu = document.querySelector("input"); // Istifadecinin girdiyi kod
+
+			if(girisKodu.value === sifre) {
+				girisKodu.value = "Ugurlu girish";
+
+				setTimeout(function() {
+					girisKodu.value = "";
+				},500)
+			} else {
+				girisKodu.value = "Kodu yanlish girdiz";
+
+				setTimeout(function() {
+					girisKodu.value = "";
+				},500)
+			}
+		})
+	</script>
+</body>
+</html>

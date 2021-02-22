@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ders Tapsirigi 5</title>
+	<link rel="stylesheet" type="text/css" href="css/stil.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+	<!-- Container -->
+	<div class="container">
+		<div class="sign-in-title">
+			<span>Almaguin Compground - Reservation</span>
+		</div>
+		<div class="your-info bg-color-form">
+			<form class="bg-color-form">
+				<!--Accomodaton-->
+				<div class="accomodaton">
+					<div class="left-side">
+						<label for="accomodaton">Accomodation</label>
+					</div>
+					<div class="right-side">
+						<select id="accomodaton">
+							<option value="RV">RV</option>
+							<option value="CV">CV</option>
+						</select>
+					</div>
+				</div>
+				<!--Name-->
+				<div class="name">
+					<div class="left-side">
+						<label for="name">Name</label>
+					</div>
+					<div class="right-side d-flex">
+						<select id="mr">
+							<option value="mr">Mr</option>
+							<option value="zr">Zr</option>
+						</select>
+						<input type="text" placeholder="First Name">
+						<input type="text" placeholder="Last Name">
+					</div>
+				</div>
+				<!--Guests-->
+				<div class="guests">
+					<div class="left-side">
+						<label for="guests">Guests</label>
+					</div>
+					<div class="right-side  d-flex">
+						<input type="number" min="18" placeholder="18+">
+						<input type="number" min="2" max="17" placeholder="2-17 years">
+						<input type="number" max="2" placeholder="< 2 years">
+					</div>
+				</div>
+				<!--Contact-->
+				<div class="contact">
+					<div class="left-side">
+						<label for="contact">Contact</label>
+					</div>
+					<div class="right-side">
+						<input type="email" placeholder="E-mail">
+						<input type="tel" placeholder="Phone (xxx) - xxx xxxx">
+					</div>
+				</div>
+				<!--Checkin-Checkout-->
+				<div class="checkin">
+					<div class="left-side">
+						<label for="checkin">Checkin</label>
+					</div>
+					<div class="right-side d-flex align-items-center">
+						<input type="date">
+						<label for="checkout">Checkout</label>
+						<input type="date">
+					</div>
+				</div>
+				<!--Equipment type-->
+				<div class="equipmenttype">
+					<div class="left-side">
+						<label for="equipmenttype">Equipment type</label>
+					</div>
+					<div class="right-side">
+						<select id="">
+							<option value="Travel trainer">Travel trainer</option>
+							<option value="Travel engineer">Travel engineer</option>
+						</select>
+					</div>						
+				</div>
+				<!--Required Service-->
+				<div class="requiredservice">
+					<div class="left-side">
+						<label for="requiredservice">Required Service</label>
+					</div>
+					<div class="right-side">
+						<select id="" size="3">
+							<option value="Hydro">Hydro</option>
+							<option value="Water">Water</option>
+							<option value="">Hydro</option>
+						</select>
+					</div>
+
+				</div>
+				<!--Pets-->
+				<div class="pets">
+					<div class="left-side">
+						<label for="guests">Pets</label>
+					</div>
+					<div class="right-side">
+						<span>Yes</span><input type="radio" name="pets">
+						<span>No</span><input type="radio" name="pets">
+					</div>
+				</div>
+				<!--Comments-->
+				<div class="comments">
+					<div class="left-side">
+						<label for="comments">Comments</label>
+					</div>
+					<div class="right-side">
+						<textarea id="" cols="34" rows="4" placeholder="Additional comments"></textarea>
+						<input type="submit" value="Request Reservation">
+						<input type="reset" value="Cancel">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

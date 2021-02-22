@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iOS Screen Lock</title>
+	<link rel="stylesheet" href="stil.css">
+</head>
+<body class="dflex justify-center pt-50">
+	<!-- Konteyner divi -->
+	<div class="container">
+		<!-- Blur Background Layer -->
+		<div class="blur"></div>
+
+		<!-- Ust Hisse -->
+		<div class="top h-5pc dflex justify-between">
+			<!-- Sol Hisse divi -->
+			<div class="top-left dflex">
+				<div class="dalga dflex">
+					<div class="dalga-sayi dflex">
+						<div class="dalga-n"></div>
+						<div class="dalga-n"></div>
+						<div class="dalga-n"></div>
+						<div class="dalga-n"></div>
+						<div class="dalga-n"></div>
+					</div>
+					<span>Bell</span>
+				</div>
+				<div class="wifi">
+					<span>Wifi ikonu</span>
+				</div>
+			</div>
+
+			<!-- Sag Hisse divi -->
+			<div class="top-right dflex">
+				<div class="kilid"></div>
+				<div class="blutuz"></div>
+				<div class="zaryatka dflex">
+					<span>86</span>
+					<div class="zaryatkaolcen"></div>
+					<span>ildirim ikonu</span>
+				</div>
+			</div>
+		</div>
+		<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+		<!-- Kilid Hisse -->
+		<div class="kilid h-90pc" style="display: none;">
+			<!-- Shifrenin duzgunluyunu yoxlayan hisse -->
+			<div class="sifreyoxlama h-15pc dflex justify-center align-center">
+				<div>
+					<div class="ust pb-15px">
+						<span class="f-20px">Enter Passcode</span>
+					</div>
+
+					<div class="alt dflex justify-between">
+						<div class="yoxla yoxla1 bradius-50 w-10px h-10px b1pxsolid bc-white"></div>
+						<div class="yoxla yoxla2 bradius-50 w-10px h-10px b1pxsolid bc-white"></div>
+						<div class="yoxla yoxla3 bradius-50 w-10px h-10px b1pxsolid bc-white"></div>
+						<div class="yoxla yoxla4 bradius-50 w-10px h-10px b1pxsolid bc-white"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Kilidi acmaq ucun reqem girilen hisse -->
+			<div class="sifrereqemleri h-85pc dflex direction-col align-center justify-center">
+				<!-- Qrup 1 -->
+				<div class="qrup qrup1 pb-15px dflex justify-around align-center">
+					<!-- 1 -->
+					<a href="#" class="reqem dflex direction-col justify-center align-center w-70px h-70px">
+						<span class="f-30px">1</span>
+					</a>
+					<!-- 2 -->
+					<a href="#" class="reqem dflex direction-col justify-center align-center w-70px h-70px mx-15px">
+						<span class="f-30px">2</span>
+						<span class="f-10px">ABC</span>
+					</a>
+					<!-- 3 -->
+					<a href="#" class="reqem dflex direction-col justify-center align-center w-70px h-70px">
+						<span class="f-30px">3</span>
+						<span class="f-10px">DEF</span>
+					</a>
+				</div>
+
+				<!-- Qrup 2 -->
+				<div class="qrup qrup2 pb-15px dflex justify-around align-center">
+					<!-- 4 -->
+					<a href="#" class="reqem dflex direction-col justify-center align-center w-70px h-70px">
+						<span class="f-30px">4</span>
+						<span class="f-10px">GHI</span>
+					</a>
+					<!-- 5 -->
+					<a href="#" class="reqem dflex direction-col justify-center align-center w-70px h-70px mx-15px">
+						<span class="f-30px">5</span>
+						<span class="f-10px">JKL</span>
+					</a>
+					<!-- 6 -->
+					<a href="#" class="reqem dflex direction-col justify-center align-center w-70px h-70px">
+						<span class="f-30px">6</span>
+						<span class="f-10px">MNO</span>
+					</a>
+				</div>
+
+				<!-- Qrup 3 -->
+				<div class="qrup qrup3 pb-15px dflex justify-around align-center">
+					<!-- 7 -->
+					<a href="#" class="reqem dflex direction-col justify-center align-center w-70px h-70px">
+						<span class="f-30px">7</span>
+						<span class="f-10px">PQRS</span>
+					</a>
+					<!-- 8 -->
+					<a href="#" class="reqem dflex direction-col justify-center align-center w-70px h-70px mx-15px">
+						<span class="f-30px">8</span>
+						<span class="f-10px">TUV</span>
+					</a>
+					<!-- 9 -->
+					<a href="#" class="reqem dflex direction-col justify-center align-center w-70px h-70px">
+						<span class="f-30px">9</span>
+						<span class="f-10px">WXYZ</span>
+					</a>
+				</div>
+
+				<!-- Qrup 4 -->
+				<div class="qrup qrup4 dflex justify-around align-center">
+					<!-- 0 -->
+					<a href="#" class="reqem dflex direction-col justify-center align-center w-70px h-70px">
+						<span class="f-30px">0</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+		<!-- Tarix ve Tecili zeng -->
+		<div class="h-95pc dflex direction-col justify-between">
+			<!-- Tarix -->
+			<div class="tarix h-95pc py-20px dflex direction-col justify-between align-center">
+				<div class="saathisse">
+					<div class="saat text-center">
+						<span id="vaxt" class="f-60px">12:42</span>
+					</div>
+					<div class="tarix text-center">
+						<span>Saturday, January 4</span>
+					</div>
+				</div>
+
+				<!-- Slide -->
+				<div class="slidehisse h-5pc">
+					<a href="#" class="slideyazisi f-20px">slide to unlock</a>
+				</div>
+			</div>
+
+			<!-- Tecili zeng -->
+			<div class="tecilizeng h-5pc dflex justify-between">
+				<!-- Sol Hisse divi -->
+				<div class="bottom-left">
+					<!-- Text Left -->
+					<div class="text1">
+						<a href="#"></a>
+					</div>
+				</div>
+
+				<!-- Sag Hisse divi -->
+				<div class="bottom-right">
+					<!-- Text Right -->
+					<div class="text2">
+						<a href="#">Kamera Ikonu</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+		<!-- Alt Hisse -->
+		<div class="bottom h-5pc dflex justify-between" style="display: none;">
+			<!-- Sol Hisse divi -->
+			<div class="bottom-left">
+				<!-- Text Left -->
+				<div class="text1">
+					<a href="#">Emergency</a>
+				</div>
+			</div>
+
+			<!-- Sag Hisse divi -->
+			<div class="bottom-right">
+				<!-- Text Right -->
+				<div class="text2">
+					<a href="#">Cancel</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<script type="text/javascript">
+			let saat = new Date();
+			let m = document.querySelector("#vaxt").innerText;
+			console.log(m)
+		</script>
+</body>
+</html>
